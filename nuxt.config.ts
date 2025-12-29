@@ -7,6 +7,7 @@ export default defineNuxtConfig({
     "@nuxt/icon",
     "@nuxt/scripts",
     "@nuxt/test-utils",
+    "nuxt-studio",
   ],
 
   i18n: {
