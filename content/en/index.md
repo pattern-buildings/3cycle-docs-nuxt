@@ -1,29 +1,25 @@
 ---
 seo:
-  title: Write beautiful docs with Markdown
-  description: Ship fast, flexible, and SEO-optimized documentation with beautiful
-    design out of the box. Docus brings together the best of the Nuxt ecosystem.
-    Powered by Nuxt UI.
+  title: 3Cycle - Modular Construction System
+  description: Open-source modular timber construction system from Estonia. Standardized components for flexible, sustainable building configurations.
 ---
 
 ::u-page-hero
 #title
-Write beautiful docs with Markdown
+3Cycle Modular Construction System
 
 #description
-Ship fast, flexible, and SEO-optimized documentation with beautiful design out of the box.
-
-Docus brings the best of the Nuxt ecosystem into one CLI.
+Open-source modular timber construction system from Estonia. Build with standardized components designed for flexibility, sustainability, and precision.
 
 #links
   :::u-button
   ---
   color: neutral
   size: xl
-  to: /en/getting-started/installation
+  to: /en/getting-started/introduction
   trailing-icon: i-lucide-arrow-right
   ---
-  Get started
+  Get Started
   :::
 
   :::u-button
@@ -31,93 +27,81 @@ Docus brings the best of the Nuxt ecosystem into one CLI.
   color: neutral
   icon: simple-icons-github
   size: xl
-  to: https://github.com/nuxt-content/docus
+  to: https://github.com
   variant: outline
   ---
-  Star on GitHub
+  View on GitHub
   :::
 ::
 
 ::u-page-section
 #title
-Shipped with many features
+Key Features
 
 #features
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://nuxt.com
+  icon: i-lucide-box
   ---
   #title
-  Built with [Nuxt 4]{.text-primary}
+  Modular Design
   
   #description
-  Optimized by the most famous Vue framework. Docus gives you everything you need to build fast, performant, and SEO-friendly websites.
+  Standardized components work together to create flexible building configurations. Mix and match to suit your project needs.
   :::
 
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://ui.nuxt.com/
+  icon: i-lucide-tree
   ---
   #title
-  Powered by [Nuxt UI]{.text-primary}
+  Timber Construction
   
   #description
-  Beautiful out of the box, minimal by design but highly customizable. Docus leverages Nuxt UI to give you the best docs writing experience with zero boilerplate, just focus on your content.
+  Sustainable wood-based construction system developed in Estonia. Environmental responsibility built into every component.
   :::
 
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://content.nuxt.com
+  icon: i-lucide-book-open
   ---
   #title
-  Enhanced Markdown syntax by [Nuxt Content]{.text-primary}
+  Open Source
   
   #description
-  The only thing you need to take care about is writing your content. Write your pages in Markdown and extend with MDC syntax to embed Nuxt UI or custom Vue components. Structure, routing, and rendering are handled for you.
+  Free and open documentation for architects, builders, and developers. Complete access to all specifications and design files.
   :::
 
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://nuxt.com/docs/guide/directory-structure/app-config
+  icon: i-lucide-zap
   ---
   #title
-  Customize with [Nuxt App Config]{.text-primary}
+  Fast Assembly
   
   #description
-  Update colors, social links, header logos and component styles globally using the `app.config.ts`, no direct code modifications required.
+  Precision-manufactured components enable quick and efficient on-site assembly. Standardized connections reduce construction time.
   :::
 
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://content.nuxt.com/studio
+  icon: i-lucide-check-circle
   ---
   #title
-  Collaborate on [Nuxt Studio]{.text-primary}
+  Quality Assured
   
   #description
-  Write and manage your content visually, with zero Markdown knowledge required. Let your non technical colleagues collaborate on the documentation and integrate Vue components without code skills.
+  Rigorous testing and quality standards ensure durability and performance. Every component meets strict specifications.
   :::
 
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://ui.nuxt.com/components/content-search
+  icon: i-lucide-layers
   ---
   #title
-  Built-in navigation and [full-text search]{.text-primary}
+  Scalable Systems
   
   #description
-  Only focus on ordering your content, Docus handles the search modal and auto-generates the side navigation for you.
+  From small structures to large buildings. 3Cycle scales to meet any project requirement.
   :::
 ::
