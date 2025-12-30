@@ -18,15 +18,11 @@ export default defineNuxtConfig({
         code: "en",
         name: "English",
       },
-      {
-        code: "fr",
-        name: "Français",
-      },
     ],
   },
 
   content: {
-    locales: ["en", "fr"],
+    locales: ["en"],
     defaultLocale: "en",
   },
 
