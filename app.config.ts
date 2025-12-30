@@ -18,4 +18,7 @@ export default defineAppConfig({
       neutral: "neutral",
     },
   },
+  header: {
+    title: "3Cycle Docs",
+  },
 });
