@@ -45,18 +45,19 @@ Key Features
   ---
   #title
   Modular Design
-  
+
   #description
   Standardized components work together to create flexible building configurations. Mix and match to suit your project needs.
   :::
 
   :::u-page-feature
   ---
-  icon: i-lucide-tree
+  icon: i-mdi-tree-outline
+  to: /en/getting-started/introduction
   ---
   #title
   Timber Construction
-  
+
   #description
   Sustainable wood-based construction system developed in Estonia. Environmental responsibility built into every component.
   :::
@@ -67,7 +68,7 @@ Key Features
   ---
   #title
   Open Source
-  
+
   #description
   Free and open documentation for architects, builders, and developers. Complete access to all specifications and design files.
   :::
@@ -78,7 +79,7 @@ Key Features
   ---
   #title
   Fast Assembly
-  
+
   #description
   Precision-manufactured components enable quick and efficient on-site assembly. Standardized connections reduce construction time.
   :::
@@ -89,7 +90,7 @@ Key Features
   ---
   #title
   Quality Assured
-  
+
   #description
   Rigorous testing and quality standards ensure durability and performance. Every component meets strict specifications.
   :::
@@ -100,7 +101,7 @@ Key Features
   ---
   #title
   Scalable Systems
-  
+
   #description
   From small structures to large buildings. 3Cycle scales to meet any project requirement.
   :::
