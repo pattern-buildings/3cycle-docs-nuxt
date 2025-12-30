@@ -19,18 +19,7 @@ Open-source modular timber construction system from Estonia. Build with standard
   to: /en/getting-started/introduction
   trailing-icon: i-lucide-arrow-right
   ---
-  Get Started
-  :::
-
-  :::u-button
-  ---
-  color: neutral
-  icon: simple-icons-github
-  size: xl
-  to: https://github.com
-  variant: outline
-  ---
-  View on GitHub
+  Documentation
   :::
 ::
 
