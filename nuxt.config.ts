@@ -32,6 +32,7 @@ export default defineNuxtConfig({
       owner: "pattern-buildings",
       repo: "3cycle-docs-nuxt",
       branch: "main",
+      private: false,
     },
   },
   // llms: {
