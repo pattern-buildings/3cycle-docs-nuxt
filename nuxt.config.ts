@@ -26,6 +26,14 @@ export default defineNuxtConfig({
     defaultLocale: "en",
   },
 
+  studio: {
+    repository: {
+      provider: "github",
+      owner: "pattern-buildings",
+      repo: "3cycle-docs-nuxt",
+      branch: "main",
+    },
+  },
   // llms: {
   //   domain: "http://localhost:3000",
   // },
