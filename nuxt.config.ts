@@ -35,7 +35,7 @@ export default defineNuxtConfig({
       private: false,
     },
   },
-  // llms: {
-  //   domain: "http://localhost:3000",
-  // },
+  llms: {
+    domain: "https://3cycle-docs-nuxt.netlify.app",
+  },
 });
