@@ -1,4 +1,6 @@
 export default defineNuxtConfig({
+  css: ["~/assets/css/landing.css"],
+
   modules: [
     "@nuxtjs/i18n",
     "@nuxt/eslint",
@@ -35,6 +37,13 @@ export default defineNuxtConfig({
       private: false,
     },
   },
+  fonts: {
+    families: [
+      { name: "Instrument Serif", provider: "google", weights: [400] },
+      { name: "DM Mono", provider: "google", weights: [400, 500] },
+    ],
+  },
+
   llms: {
     domain: "https://3cycle-docs-nuxt.netlify.app",
   },

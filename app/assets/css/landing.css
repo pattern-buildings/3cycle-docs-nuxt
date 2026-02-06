@@ -1,0 +1,4 @@
+/* Landing page — full-bleed override */
+.landing-page {
+  max-width: none !important;
+}
