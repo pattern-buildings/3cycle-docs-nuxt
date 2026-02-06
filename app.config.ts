@@ -20,5 +20,10 @@ export default defineAppConfig({
   },
   header: {
     title: "3Cycle Docs",
+    logo: {
+      light: "/3cycle-logo-S.svg",
+      dark: "/3cycle-logo-S.svg",
+      alt: "3Cycle",
+    },
   },
 });

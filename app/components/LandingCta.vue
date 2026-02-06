@@ -1,6 +1,7 @@
 <template>
   <section class="cta">
     <div class="cta-inner">
+      <img src="/3cycle-logo-L.svg" alt="" aria-hidden="true" class="cta-logo" />
       <p class="cta-tag">For architects, builders, and developers</p>
       <h2 class="cta-title">Explore the system</h2>
       <p class="cta-sub">
@@ -35,6 +36,13 @@
   margin: 0 auto;
   padding: 6rem 2rem;
   text-align: center;
+}
+
+.cta-logo {
+  width: 4.5rem;
+  height: auto;
+  margin: 0 auto 1.5rem;
+  opacity: 1;
 }
 
 .cta-tag {

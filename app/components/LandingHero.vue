@@ -142,6 +142,7 @@
 .hero-visual {
   display: flex;
   justify-content: center;
+  min-width: 0;
 }
 
 .visual-placeholder {
@@ -197,7 +198,7 @@
   }
 
   .hero-visual {
-    order: -1;
+    order: 1;
   }
 
   .visual-placeholder {
