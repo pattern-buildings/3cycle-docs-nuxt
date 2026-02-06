@@ -29,14 +29,27 @@
     </div>
 
     <div class="hero-visual">
-      <div class="visual-placeholder">
-        <div class="placeholder-inner">
-          <div class="ph-block ph-a" />
-          <div class="ph-block ph-b" />
-          <div class="ph-block ph-c" />
-        </div>
-        <span class="visual-caption">System visualization placeholder</span>
-      </div>
+      <ClientOnly>
+        <ModuleCanvas />
+        <template #fallback>
+          <div class="visual-placeholder">
+            <svg class="ph-grid" viewBox="0 0 560 400" fill="none" aria-hidden="true">
+              <defs>
+                <pattern id="ph-dots" width="40" height="40" patternUnits="userSpaceOnUse">
+                  <circle cx="1" cy="1" r="0.8" fill="currentColor" />
+                </pattern>
+              </defs>
+              <rect width="560" height="400" fill="url(#ph-dots)" />
+            </svg>
+            <div class="ph-center">
+              <svg class="ph-spinner" width="20" height="20" viewBox="0 0 20 20" aria-hidden="true">
+                <circle cx="10" cy="10" r="8" stroke="currentColor" stroke-width="1.5" fill="none" stroke-dasharray="36 14" />
+              </svg>
+              <span class="ph-label">Loading configurator</span>
+            </div>
+          </div>
+        </template>
+      </ClientOnly>
     </div>
   </section>
 </template>
@@ -134,47 +147,45 @@
 .visual-placeholder {
   position: relative;
   width: 100%;
-  max-width: 520px;
-  aspect-ratio: 4 / 3;
+  max-width: 560px;
+  aspect-ratio: 14 / 10;
   border: 1px solid var(--ui-border);
   border-radius: 12px;
   background: var(--ui-bg-elevated);
   overflow: hidden;
 }
 
-.placeholder-inner {
+.ph-grid {
   position: absolute;
-  inset: 1.5rem;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  gap: 0.75rem;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  color: var(--ui-border);
 }
 
-.ph-block {
-  border-radius: 8px;
-  border: 1px dashed var(--ui-border);
-  background: var(--ui-bg);
-  transition: border-color 0.3s;
-}
-
-.ph-block:hover {
-  border-color: var(--ui-primary);
-}
-
-.ph-a {
-  grid-row: 1 / 3;
-}
-
-.visual-caption {
+.ph-center {
   position: absolute;
-  bottom: 0.75rem;
-  left: 50%;
-  transform: translateX(-50%);
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.625rem;
+}
+
+.ph-spinner {
+  color: var(--ui-text-dimmed);
+  animation: ph-spin 1.2s linear infinite;
+}
+
+@keyframes ph-spin {
+  to { transform: rotate(360deg); }
+}
+
+.ph-label {
   font-family: 'DM Mono', monospace;
   font-size: 0.6875rem;
   color: var(--ui-text-dimmed);
-  white-space: nowrap;
 }
 
 @media (max-width: 1024px) {
@@ -190,6 +201,10 @@
   }
 
   .visual-placeholder {
+    max-width: 440px;
+  }
+
+  .hero-visual :deep(.canvas-container) {
     max-width: 440px;
   }
 }
