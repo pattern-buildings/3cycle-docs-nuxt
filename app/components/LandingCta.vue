@@ -17,10 +17,10 @@
         </a>
       </div>
       <nav class="cta-links">
-        <a href="/en/essentials/design-guidelines">Design Guidelines</a>
-        <a href="/en/essentials/system-components">Components</a>
-        <a href="/en/essentials/assembly-construction">Assembly</a>
-        <a href="/en/essentials/maintenance-durability">Durability</a>
+        <a href="/en/system/components">Components</a>
+        <a href="/en/system/technical-overview">Technical Overview</a>
+        <a href="/en/assembly-and-delivery/assembly-and-construction">Assembly</a>
+        <a href="/en/assembly-and-delivery/operation-of-the-building">Operation</a>
       </nav>
     </div>
   </section>
