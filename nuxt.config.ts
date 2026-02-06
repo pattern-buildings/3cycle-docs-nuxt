@@ -2,6 +2,7 @@ export default defineNuxtConfig({
   css: ["~/assets/css/landing.css"],
 
   modules: [
+    "@nuxt/content",
     "@nuxtjs/i18n",
     "@nuxt/eslint",
     "@nuxt/fonts",
@@ -37,6 +38,7 @@ export default defineNuxtConfig({
       private: false,
     },
   },
+
   fonts: {
     families: [
       { name: "Instrument Serif", provider: "google", weights: [400] },
